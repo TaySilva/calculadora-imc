@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="imagens/apple-touch-icon.png" />
+   
+    
+    <title>IMC </title>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <div class="mlateral">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+          <span>fechar</span>
+        </div>  
+
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="imagens/bg.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>IMC & Saúde equilibrada</h1>
+                <p>Tays Silva</p>
+                <a href="#conhecimentos" ><button> Saiba mais</button></a>
+            </div>
+        </header>
+
+        <aside class="sidebar">
+          <nav>
+            <ul class="menu">
+              <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+              <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+              <li class="menu-item"><a href="#Calculadora" class="menu-link">Calculadora</a></li>
+              <li class="menu-item"><a href="#Classificacao" class="menu-link">Classificação</a></li>
+              <li class="menu-item"><a href="#bm" class="menu-link">Bem estar</a></li>
+            </ul>
+          </nav>
+          <div class="social-media">
+            <a href="https://wa.me/5531999569922" target="_blank"><b>📞 </b></a>
+            <a href="mailto:taysdecassias@gmail.com?subject=Assunto&body=Digite sua mensagem" target="_blank"><b>📧 </b></a>
+          </div>
+        </aside>
+
+        <section class="sessao-conhecimentos" id="conhecimentos">
+          <div class="sessao-header">
+            <h1>Conhecimentos</h1>
+          </div>
+          <div class="conhecimentos">
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-html5"></i>
+                <h3>O QUE É IMC? </h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>IMC é uma sigla utilizada para Índice de Massa Corporal. Ele é uma medida de padrão internacional adotada pela Organização Mundial de Saúde (OMS), utilizada para avaliar o grau de obesidade do indivíduo.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-css3-alt"></i>
+                <h3>COMO É UTILIZADO?</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Hoje em dia, o IMC é utilizado como forma de comparar a saúde de populações, ou até mesmo definir prescrição de medicações.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fas fa-pencil-alt"></i>
+                <h3></br>CURIOSIDADES -1 </h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>1. Não é possível diferenciar os componentes gordo e magro da massa corporal;<br></br>2. As pessoas brevilíneas e/ou musculosas podem ter um valor de Índice de Massa Corporal inadequado à sua realidade e serem consideradas obesas;</br></p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-js"></i>
+                <h3>O CÁLCULO DO IMC DIFERE DE GÊNERO?</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Não, o IMC se calcula igual para ambos os gêneros.
+                </p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-bootstrap"></i>
+                <h3>O CÁLCULO DO IMC DIFERE CRIANÇAS DE ADULTOS?</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Não, o que difere é a classificação do resultado.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-github"></i>
+                <h3></br>CURIOSIDADES -2 </h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>3. Diferenças étnicas influenciam no IMC, como no caso dos asiáticos que são considerados obesos pelo IMC;<br></br>4. Para idosos e crianças, o IMC possui uma classificação diferenciada.</p>
+              </div>
+            </div>
+            <div class="conhecimentos-img-wrapper">
+              <img  src="imagens/conhecimentos.png" alt="imagem conhecimento">
+            </div>
+          </div>
+        </section>
+
+        <section class="sessao-Calculadora" id="Calculadora">
+          <div class="Calculadora-wrapper">
+            <h1>Calcule seu IMC</h1>
+            <fieldset style = "width: 30%; height: 65%; margin: 30px auto;">
+              <div class="calculate">
+                  <div class="height"><p>ALTURA</p>
+                      <p class="val">
+                          <button class="sub">-</button>
+                          <span >50</span>cm
+                          <button class="add">+</button>    
+                      </p>
+                      <input type="range" min="50" max="220" value="50"> 
+                  </div>
+                            <div class="weight">
+          
+                          <p>PESO</p>
+                          <P class="val">
+                              <button class="sub">-</button>
+                              <span>10</span>kg
+                              <button class="add">+</button>    
+                          </P>
+                              <input type="range" min="10" max="180" value="10"> 
+                      
+                   </div>
+                  <div class="calc">CALCULAR<p></p> <br></br>
+                   </div></br>
+                    </div>
+
+              <div class="result">
+                  <div class="bmi">
+                      <div class="title">SEU IMC</div>
+                      <div class="val">0.00</div>
+                  </div>
+      
+                  <div class="text">SEU IMC ESTÁ NORMAL!</div>
+      
+                  <div class="recalc">RECALCULAR</div></br>
+              </div>
+              <script type="text/javascript" src="main.js"></script>
+          </fieldset>
+          </div>
+        </section>
+
+
+        <div class="sessao-Classificacao" id="Classificacao">
+          <div class="sessao-header">
+            <h1>Classificação</h1>
+          </div>
+          <div class="Classificacao">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj1.jpg" alt="imagem do projeto ToDo" />
+              </div>
+              <div class="card-info">
+                <h2>Magreza</h2>
+                <h3>Entre 17 e 18,49</h3>
+                <p>Quando o IMC está na faixa de magreza, é importante consultar um nutricionista que fará uma avaliação completa, indicando um plano alimentar personalizado que priorize o ganho de peso de forma saudável. </p>
+                <a href="https://www.minhavida.com.br/alimentacao/tudo-sobre/32159-imc" target="_blank"> <button class="btn">Saiba Mais</button></a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj2.jpg" alt="imagem do projeto Maratona" />
+              </div>
+              <div class="card-info">
+                <h2>Normal</h2>
+                <h3>Entre 18,5 e 24,99</h3>
+                <p>Estar dentro da faixa de peso normal, o que significa ter um peso considerado adequado para sua altura, de acordo com as faixas do IMC - momento de fazer a manutenção do peso.</p>
+                <a href="https://www.minhavida.com.br/alimentacao/tudo-sobre/32159-imc" target="_blank"> <button class="btn">Saiba Mais</button></a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj3.jpg" alt="imagem do projeto Maratona" />
+              </div>
+              <div class="card-info">
+                <h2>Sobrepeso</h2>
+                <h3>Entre 25 e 29,99</h3>
+                <p>O sobrepeso é uma condição em que a pessoa pesa mais do que é considerado adequado para aquela altura, idade e sexo. O sedentarismo e os maus hábitos alimentares levam ao aumento do sobrepeso.</p>
+                <a href="https://www.minhavida.com.br/alimentacao/tudo-sobre/32159-imc" target="_blank"> <button class="btn">Saiba Mais</button></a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj4.jpg" alt="imagem do projeto Casa Bela" />
+              </div>
+              <div class="card-info">
+                <h2>Obesidade</h2>
+                <h3>Entre 30 e 34,99</h3>
+                <p>O tratamento da obesidade,é realizado através de dieta apropriada com avaliação médica em conjunto com a prática de exercícios, desde que o paciente seja avaliado e liberado pelo médico.</p>
+                <a href="https://www.minhavida.com.br/alimentacao/tudo-sobre/32159-imc" target="_blank"> <button class="btn">Saiba Mais</button></a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="sessao-bm" id="bm">
+          <div class="bm-wrapper">
+            <div class="bm-left"><h1><br></br>Porque é importante estar dentro do peso ideal?</h1></div>
+            <div class="bm-right">
+            
+              <div class="importancia">
+                <img src="imagens/ideal.png"/>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        
+        <footer>
+          <div class="footer-content">
+            <p>
+              Copyright &copy; 2021, TAYS SILVA - Todos os diretos reservados
+            </p>
+            <div class="social-list">
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+        <a href="#home" id="link-topo">
+          ▲
+        </a>
+    </div>
+   </body>
+
+   <script src="script.js"></script>
+</html>
